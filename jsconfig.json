@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "rootDir": "."
+  },
+  "include": ["src/**/*", "src/libs/knockout-classBindingProvider.min.js"],
+  "exclude": ["node_modules", "**/node_modules/*", "/dist"]
+}

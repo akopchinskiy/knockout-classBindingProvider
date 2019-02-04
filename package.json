@@ -1,13 +1,17 @@
 {
   "name": "knockout-classBindingProvider",
   "version": "0.5.0",
+  "dependencies": {
+    "knockout": "3.0.0"
+  },
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-uglify": "0.x.x",
-    "grunt-contrib-jshint": "0.x.x",
-    "grunt-contrib-watch": "0.x.x",
-    "grunt-contrib-concat": "0.x.x",
-    "grunt-contrib-jasmine": "0.x.x",
-    "grunt-template-jasmine-istanbul": "0.x.x"
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "7.3.1",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  },
+  "scripts": {
+    "start": "webpack"
   }
 }
