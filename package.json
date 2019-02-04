@@ -1,5 +1,9 @@
 {
   "name": "knockout-classBindingProvider",
+  "author": "Ryan Niemeyer <> (https://github.com/rniemeyer)",
+  "contributors": [
+    "Artem Kopchinskiy <akopchinskiy@apollo4u.net> (https://github.com/akopchinskiy)"
+  ],
   "version": "0.6.0",
   "dependencies": {
     "knockout": "3.0.0"
